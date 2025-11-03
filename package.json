@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/septwong/vscode-focus-theme",
   "bugs": {
-    "url": "https://github.com/septwong/vscode-focus-theme/issues"
+    "url": "https://github.com/septwong/vscode-focus-theme/issues",
+    "email": "septwong@foxmail.com"
   },
   "keywords": [
     "theme",
