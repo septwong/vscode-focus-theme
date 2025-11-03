@@ -2,19 +2,25 @@
   <img src="images/logo.png" width="120" alt="Focus Theme Logo" />
 </p>
 
-# Focus Theme | 焦点主题
+<p align="center">
+    <span>English</span>
+    ·
+    <a href="https://github.com/septwong/markdown-syntax/blob/main/README_en.md">简体中文</a>
+</p>
 
-一个强调「专注」的 VS Code 主题。
+# Focus Theme
 
-使用最少的颜色，突出代码中真正重要的信息：
-- 字符串与常量
-- 顶层定义
-- 有意义的注释
+A VS Code theme designed for focus.
 
-减少视觉干扰，让阅读与定位更高效。
-支持浅色与深色两种风格。
+Highlight only what truly matters:
+- Strings and constants
+- Top-level definitions
+- Meaningful comments
 
-## 主题预览
+Less visual noise. More clarity. Faster navigation.
+Supports both light and dark modes.
+
+## Preview
 
 <p align="center">
   <img src="images/screenshot-light.png" alt="Focus Theme Light Preview" />
@@ -23,9 +29,9 @@
   <img src="images/screenshot-dark.png" alt="Focus Theme Dark Preview" />
 </p>
 
-## 使用方式
+## Usage
 
-安装扩展后，打开 VS Code：
-> 主题设置 → 选择 **Focus Theme**
+After installation, open VS Code:
+> Color Theme → Select **Focus Theme**
 
-欢迎反馈和建议！
+Feedback is welcome!
