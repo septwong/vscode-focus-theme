@@ -1,16 +1,31 @@
-# focus-theme README
+<p align="center">
+  <img src="images/logo.png" width="120" alt="Focus Theme Logo" />
+</p>
 
-## Working with Markdown
+# Focus Theme | 焦点主题
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+一个强调「专注」的 VS Code 主题。
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+使用最少的颜色，突出代码中真正重要的信息：
+- 字符串与常量
+- 顶层定义
+- 有意义的注释
 
-## For more information
+减少视觉干扰，让阅读与定位更高效。
+支持浅色与深色两种风格。
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 主题预览
 
-**Enjoy!**
+<p align="center">
+  <img src="images/screenshot-light.png" alt="Focus Theme Light Preview" />
+</p>
+<p align="center">
+  <img src="images/screenshot-dark.png" alt="Focus Theme Dark Preview" />
+</p>
+
+## 使用方式
+
+安装扩展后，打开 VS Code：
+> 主题设置 → 选择 **Focus Theme**
+
+欢迎反馈和建议！

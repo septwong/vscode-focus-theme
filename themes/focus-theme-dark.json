@@ -1,0 +1,126 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "name": "Focus Minimal Dark",
+  "colors": {
+    "editor.foreground": "#E0E0E0",
+    "editor.background": "#1A1A1A",
+    "editorLineNumber.foreground": "#4D4D4D",
+    "editorCursor.foreground": "#66CFFF",
+    "editorWhitespace.foreground": "#2F2F2F",
+    "editorIndentGuide.background1": "#2A2A2A",
+    "editorIndentGuide.activeBackground1": "#3A3A3A",
+    "sideBar.background": "#252525",
+    "sideBar.foreground": "#DDDDDD",
+    "activityBar.background": "#1E1E1E",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#777777",
+    "titleBar.activeBackground": "#1A1A1A",
+    "titleBar.activeForeground": "#E0E0E0",
+    "titleBar.inactiveBackground": "#222222",
+    "titleBar.inactiveForeground": "#888888",
+    "statusBar.background": "#1E1E1E",
+    "statusBar.foreground": "#CCCCCC",
+    "statusBar.debuggingBackground": "#5AB8FF",
+    "statusBar.debuggingForeground": "#000000",
+    "tab.activeBackground": "#1A1A1A",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveBackground": "#2A2A2A",
+    "tab.inactiveForeground": "#888888",
+    "panel.background": "#1E1E1E",
+    "panel.border": "#333333",
+    "scrollbarSlider.background": "#3A3A3A55",
+    "scrollbarSlider.hoverBackground": "#3A3A3A88",
+    "scrollbarSlider.activeBackground": "#3A3A3ACC",
+    "editorGroupHeader.tabsBackground": "#1D1D1D",
+    "editorGroup.border": "#2E2E2E"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "string",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#7CFF98" // 更亮，便于快速定位逻辑起点
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "meta.function.declaration",
+        "meta.var.expr entity.name"
+      ],
+      "settings": {
+        "foreground": "#66CFFF" // 函数定义更显眼
+      }
+    },
+    {
+      "scope": [
+        "entity.name.class",
+        "entity.name.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#A0D0FF" // 类/类型：略淡，结构可识别
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#FFD466", // 注解释义：高亮！
+        "fontStyle": "" // 不加斜体，保持稳重
+      }
+    },
+    {
+      "scope": [
+        "comment.block.documentation"
+      ],
+      "settings": {
+        "foreground": "#C7B26A",
+        "fontStyle": "italic" // 文档注释区分
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash",
+        "comment.block"
+      ],
+      "settings": {
+        "foreground": "#777777" // 更明显地区分掉代码
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite",
+        "meta.function-call",
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#E0E0E0" // 减少无意义视觉信号
+      }
+    },
+    {
+      "scope": [
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#808080" // 名称先于语法结构
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#FF5C5C",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

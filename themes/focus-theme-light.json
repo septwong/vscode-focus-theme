@@ -1,0 +1,93 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "light",
+  "name": "Focus Minimal Light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#333333",
+    "editorLineNumber.foreground": "#BBBBBB",
+    "editorCursor.foreground": "#0077CC",
+    "editorWhitespace.foreground": "#E6E6E6",
+    "sideBar.background": "#F7F7F7",
+    "sideBar.foreground": "#333333",
+    "activityBar.background": "#F2F2F2",
+    "activityBar.foreground": "#222222",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.inactiveBackground": "#EDEDED",
+    "tab.activeForeground": "#222222",
+    "tab.inactiveForeground": "#777777",
+    "statusBar.background": "#F7F7F7",
+    "statusBar.foreground": "#333333",
+    "panel.background": "#FAFAFA",
+    "panel.border": "#E4E4E4",
+    "editorIndentGuide.background1": "#E6E6E6",
+    "editorIndentGuide.activeBackground1": "#D8D8D8",
+    "editorGroupHeader.tabsBackground": "#F7F7F7",
+    "editorGroup.border": "#DDDDDD",
+    "scrollbarSlider.background": "#CFCFCF55",
+    "scrollbarSlider.hoverBackground": "#CFCFCF88",
+    "scrollbarSlider.activeBackground": "#CFCFCFCC",
+    "titleBar.activeBackground": "#FFFFFF",
+    "titleBar.activeForeground": "#222222",
+    "titleBar.inactiveBackground": "#F0F0F0",
+    "titleBar.inactiveForeground": "#777777"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "string",
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#22863A"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "entity.name.type",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#0077CC"
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#B8860B"
+      }
+    },
+    {
+      "scope": [
+        "punctuation"
+      ],
+      "settings": {
+        "foreground": "#666666"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite",
+        "meta.function-call",
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#333333"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#CC0000"
+      }
+    }
+  ]
+}

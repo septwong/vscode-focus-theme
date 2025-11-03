@@ -1,7 +1,7 @@
 {
   "name": "focus-theme",
   "displayName": "Focus Theme",
-  "description": "",
+  "description": "Highlight what matters. A minimal syntax highlighting theme that reduces distraction and improves code readability. 焦点主题，以最少的颜色传达最多的信息。",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.105.0"
@@ -9,12 +9,38 @@
   "categories": [
     "Themes"
   ],
+  "publisher": "SeptWong",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#1e1f22",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/septwong/vscode-focus-theme"
+  },
+  "homepage": "https://github.com/septwong/vscode-focus-theme",
+  "bugs": {
+    "url": "https://github.com/septwong/vscode-focus-theme/issues"
+  },
+  "keywords": [
+    "theme",
+    "focus",
+    "syntax highlighting",
+    "dark theme",
+    "light theme"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "Focus Theme",
+        "label": "Focus Light",
+        "uiTheme": "vs",
+        "path": "./themes/focus-theme-light.json"
+      },
+      {
+        "label": "Focus Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Focus Theme-color-theme.json"
+        "path": "./themes/focus-theme-dark.json"
       }
     ]
   }
