@@ -5,7 +5,7 @@
 <p align="center">
     <span>简体中文</span>
     ·
-    <a href="https://github.com/septwong/markdown-syntax/blob/main/README_en.md">English</a>
+    <a href="https://github.com/septwong/vscode-focus-theme/blob/main/README.md">English</a>
 </p>
 
 # Focus Theme | 焦点主题
