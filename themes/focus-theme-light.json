@@ -41,59 +41,70 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "string",
-        "constant.numeric"
-      ],
+      "scope": ["keyword", "keyword.control", "keyword.operator", "keyword.other", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#B06040"
+      }
+    },
+    {
+      "scope": ["string", "constant.numeric", "constant.language", "constant.language.boolean", "constant.language.null", "constant", "constant.other"],
       "settings": {
         "foreground": "#22863A"
       }
     },
     {
-      "scope": [
-        "entity.name.function",
-        "entity.name.type",
-        "entity.name.class"
-      ],
+      "scope": ["entity.name.function", "meta.function.declaration", "meta.var.expr entity.name", "support.function", "entity.name.function.member", "meta.function-call"],
       "settings": {
         "foreground": "#0077CC"
       }
     },
     {
-      "scope": [
-        "comment"
-      ],
+      "scope": ["entity.name.class", "entity.name.type", "entity.other.inherited-class", "support.class", "support.type"],
+      "settings": {
+        "foreground": "#0077CC"
+      }
+    },
+    {
+      "scope": ["variable.parameter", "meta.parameters variable", "variable.other.property", "variable.other.object.property", "meta.property-name"],
+      "settings": {
+        "foreground": "#555555"
+      }
+    },
+    {
+      "scope": ["variable.other.readwrite", "variable.other"],
+      "settings": {
+        "foreground": "#444444"
+      }
+    },
+    {
+      "scope": ["comment.line", "comment.block", "comment.block.documentation"],
+      "settings": {
+        "foreground": "#888888"
+      }
+    },
+    {
+      "scope": ["comment.todo", "comment.fixme", "comment.note"],
       "settings": {
         "foreground": "#B8860B"
       }
     },
     {
-      "scope": [
-        "punctuation"
-      ],
+      "scope": ["string.regexp", "source.regexp"],
+      "settings": {
+        "foreground": "#22863A"
+      }
+    },
+    {
+      "scope": ["punctuation"],
       "settings": {
         "foreground": "#666666"
       }
     },
     {
-      "scope": [
-        "variable.other.readwrite",
-        "meta.function-call",
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#333333"
-      }
-    },
-    {
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
-      "settings": {
-        "foreground": "#CC0000"
+        "foreground": "#CC0000",
+        "fontStyle": "underline"
       }
     }
   ]

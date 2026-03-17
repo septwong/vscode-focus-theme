@@ -44,86 +44,67 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "string",
-        "constant.numeric"
-      ],
+      "scope": ["keyword", "keyword.control", "keyword.operator", "keyword.other", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#7CFF98" // 更亮，便于快速定位逻辑起点
+        "foreground": "#E0A060"
       }
     },
     {
-      "scope": [
-        "entity.name.function",
-        "meta.function.declaration",
-        "meta.var.expr entity.name"
-      ],
+      "scope": ["string", "constant.numeric", "constant.language", "constant.language.boolean", "constant.language.null", "constant", "constant.other"],
       "settings": {
-        "foreground": "#66CFFF" // 函数定义更显眼
+        "foreground": "#7CFF98"
       }
     },
     {
-      "scope": [
-        "entity.name.class",
-        "entity.name.type",
-        "support.class"
-      ],
+      "scope": ["entity.name.function", "meta.function.declaration", "meta.var.expr entity.name", "support.function", "entity.name.function.member", "meta.function-call"],
       "settings": {
-        "foreground": "#A0D0FF" // 类/类型：略淡，结构可识别
+        "foreground": "#66CFFF"
       }
     },
     {
-      "scope": [
-        "comment"
-      ],
+      "scope": ["entity.name.class", "entity.name.type", "entity.other.inherited-class", "support.class", "support.type"],
       "settings": {
-        "foreground": "#FFD466", // 注解释义：高亮！
-        "fontStyle": "" // 不加斜体，保持稳重
+        "foreground": "#66CFFF"
       }
     },
     {
-      "scope": [
-        "comment.block.documentation"
-      ],
+      "scope": ["variable.parameter", "meta.parameters variable", "variable.other.property", "variable.other.object.property", "meta.property-name"],
       "settings": {
-        "foreground": "#C7B26A",
-        "fontStyle": "italic" // 文档注释区分
+        "foreground": "#C8C8C8"
       }
     },
     {
-      "scope": [
-        "comment.line.double-slash",
-        "comment.block"
-      ],
+      "scope": ["variable.other.readwrite", "variable.other"],
       "settings": {
-        "foreground": "#777777" // 更明显地区分掉代码
+        "foreground": "#D4D4D4"
       }
     },
     {
-      "scope": [
-        "variable.other.readwrite",
-        "meta.function-call",
-        "keyword",
-        "storage.type",
-        "storage.modifier"
-      ],
+      "scope": ["comment.line", "comment.block", "comment.block.documentation"],
       "settings": {
-        "foreground": "#E0E0E0" // 减少无意义视觉信号
+        "foreground": "#666666"
       }
     },
     {
-      "scope": [
-        "punctuation"
-      ],
+      "scope": ["comment.todo", "comment.fixme", "comment.note"],
       "settings": {
-        "foreground": "#808080" // 名称先于语法结构
+        "foreground": "#FFD466"
       }
     },
     {
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
+      "scope": ["string.regexp", "source.regexp"],
+      "settings": {
+        "foreground": "#7CFF98"
+      }
+    },
+    {
+      "scope": ["punctuation"],
+      "settings": {
+        "foreground": "#707070"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#FF5C5C",
         "fontStyle": "underline"
