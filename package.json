@@ -43,6 +43,11 @@
         "label": "Focus Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/focus-theme-dark.json"
+      },
+      {
+        "label": "Focus Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/focus-theme-darker.json"
       }
     ]
   }
