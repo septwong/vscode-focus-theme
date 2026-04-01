@@ -18,15 +18,17 @@ Highlight only what truly matters:
 - Meaningful comments
 
 Less visual noise. More clarity. Faster navigation.
-Supports both light and dark modes.
 
 ## Preview
 
 <p align="center">
-  <img src="images/screenshot-light.png" alt="Focus Theme Light Preview" />
+  <img src="images/light.png" alt="Focus Theme Light Preview" />
 </p>
 <p align="center">
-  <img src="images/screenshot-dark.png" alt="Focus Theme Dark Preview" />
+  <img src="images/dark.png" alt="Focus Theme Dark Preview" />
+</p>
+<p align="center">
+  <img src="images/darker.png" alt="Focus Theme Darker Preview" />
 </p>
 
 ## Usage

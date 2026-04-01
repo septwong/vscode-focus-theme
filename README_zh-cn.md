@@ -18,15 +18,17 @@
 - 有意义的注释
 
 减少视觉干扰，让阅读与定位更高效。
-支持浅色与深色两种风格。
 
 ## 主题预览
 
 <p align="center">
-  <img src="images/screenshot-light.png" alt="Focus Theme Light Preview" />
+  <img src="images/light.png" alt="Focus Theme Light Preview" />
 </p>
 <p align="center">
-  <img src="images/screenshot-dark.png" alt="Focus Theme Dark Preview" />
+  <img src="images/dark.png" alt="Focus Theme Dark Preview" />
+</p>
+<p align="center">
+  <img src="images/darker.png" alt="Focus Theme Darker Preview" />
 </p>
 
 ## 使用方式
