@@ -22,12 +22,18 @@
 ## 主题预览
 
 <p align="center">
+  <em>Light</em>
+  <br>
   <img src="images/light.png" alt="Focus Theme Light Preview" />
 </p>
 <p align="center">
+  <em>Dark</em>
+  <br>
   <img src="images/dark.png" alt="Focus Theme Dark Preview" />
 </p>
 <p align="center">
+  <em>Darker</em>
+  <br>
   <img src="images/darker.png" alt="Focus Theme Darker Preview" />
 </p>
 
