@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased] -->
 
+#### `1.1.0` 2026-04-01
+
+- Add Focus Darker theme
+- Add preview images for Light/Dark/Darker themes
+- Update README documentation with theme names
+
 #### `1.0.2` 2026-03-17
 
 - Enhanced syntax highlighting with refined color hierarchy
